@@ -5,25 +5,25 @@ import { Camera, Image as ImageIcon, MessageSquare } from "lucide-react";
 const memoriesList = [
     {
         title: "Laughing Together",
-        image: "/src/assets/laughing.png",
+        image: "/laughing.png",
         caption: "Those moments of pure joy when we can't stop laughing.",
         icon: <MessageSquare className="w-8 h-8 text-pink-400" />
     },
     {
         title: "Walking Together",
-        image: "/src/assets/walking.png",
+        image: "/walking.png",
         caption: "The peaceful walks where the world fades away.",
         icon: <Camera className="w-8 h-8 text-purple-400" />
     },
     {
         title: "Sharing Ice Cream",
-        image: "/src/assets/icecream.png",
+        image: "/icecream.png",
         caption: "Sweet moments shared over our favorite treats.",
         icon: <ImageIcon className="w-8 h-8 text-blue-400" />
     },
     {
         title: "Sitting Under Stars",
-        image: "/src/assets/sitting.png",
+        image: "/sitting.png",
         caption: "Watching the night sky and dreaming of the future.",
         icon: <Camera className="w-8 h-8 text-yellow-500" />
     }

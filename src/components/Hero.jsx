@@ -68,7 +68,7 @@ const Hero = ({ onComplete }) => {
               className="mt-6 md:mt-8 bg-white/10 p-4 md:p-6 rounded-2xl md:rounded-3xl backdrop-blur-md border border-white/20 shadow-2xl mx-auto max-w-lg"
             >
               <img
-                src="/src/assets/home_page.png"
+                src="/home_page.png"
                 alt="Cute Couple"
                 className="w-full h-auto max-w-xs md:max-w-md mx-auto rounded-xl md:rounded-2xl shadow-lg mb-4 md:mb-6"
               />

@@ -50,7 +50,7 @@ const FinalScene = () => {
             >
                 <div className="relative aspect-square md:aspect-video rounded-3xl md:rounded-[3rem] overflow-hidden border-2 border-white/20 shadow-2xl bg-white/5 backdrop-blur-md">
                     <img
-                        src="/src/assets/end_page.png"
+                        src="/end_page.png"
                         alt="Watching Stars"
                         className="w-full h-full object-contain p-6 md:p-12 opacity-90"
                     />
