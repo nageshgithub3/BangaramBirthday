@@ -8,6 +8,7 @@ import FinalScene, { StarBackground } from "../components/FinalScene";
 import GlobalSparkles from "../components/GlobalSparkles";
 import ShaderBackground from "../components/ShaderBackground";
 import ButterflyShader from "../components/ButterflyShader";
+import MusicPlayer from "../components/MusicPlayer";
 
 const Home = () => {
     const [activeStep, setActiveStep] = useState(0);
@@ -49,6 +50,8 @@ const Home = () => {
                 <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-pink-500/10 blur-[150px] rounded-full" />
                 <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-purple-500/10 blur-[150px] rounded-full" />
             </div>
+
+            <MusicPlayer />
 
             <AnimatePresence mode="wait">
                 <motion.div
